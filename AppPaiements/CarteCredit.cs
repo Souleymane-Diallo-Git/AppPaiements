@@ -18,7 +18,7 @@ namespace AppPaiements
 
         public override void AfficherDetails() 
         {
-            Console.WriteLine($"Montant : {Montant}, description : {Description}, numerocarte : {NumeroCarte}");
+            Console.WriteLine($"La CarteCrédit est dépensée ainsi : un montant de {Montant}, une description qui est un(e) {Description}, et le numero de la carte est {NumeroCarte}.");
         }
 
 
